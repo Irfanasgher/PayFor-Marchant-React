@@ -1,0 +1,17 @@
+.wizard .steps-indicator li a .step-indicator {
+  background: #fff !important;
+  border: #b7b9ca solid 2px !important;
+  color: #b7b9ca !important;
+}
+.wizard .steps-indicator li.current a .step-indicator {
+  background: #3c44b1 !important;
+  border-color: #3c44b1 !important;
+  color: #fff !important;
+}
+.addOrganization {
+  background: #fff;
+  box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
+}
+/* li:hover {
+    color:white !important;
+} */

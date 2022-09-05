@@ -1,0 +1,23 @@
+.calendar-icon-class-by-haseeb {
+  color: #0f7887 !important;
+}
+.class-by-haseeb-for-changing-color-of-badge {
+  color: #0f7887 !important;
+  background-color: #0f7887 !important;
+}
+.user-color-by-haseeb {
+  color: #0f7887 !important;
+}
+.power-button-class-by-haseeb {
+  background-color: #0f7887 !important;
+}
+.power-button-icon-class-by-haseeb {
+  color: white;
+}
+.user-color-by-haseeb span > svg {
+  font-size: 29px;
+}
+
+.calendar-icon-class-by-haseeb span > svg {
+  font-size: 29px;
+}

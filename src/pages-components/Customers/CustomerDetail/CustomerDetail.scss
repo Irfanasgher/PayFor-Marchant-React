@@ -1,0 +1,140 @@
+.customer-detail {
+  .nav-tabs {
+    width: 100%;
+  }
+  .nav.nav-tabs .nav-item {
+    width: 50%;
+  }
+  .nav.nav-tabs .nav-item .nav-link {
+    width: 100%;
+  }
+  .tabContainer,
+  .tabContainer1 {
+    padding-right: 78px;
+    border-right: 2px solid #f7f7f8;
+
+    .pending-container {
+      border: 2px solid #f4f5f6;
+      height: 50px;
+      width: 100%;
+      border-radius: 7px;
+      padding: 10px;
+
+      .order {
+        margin-bottom: 0;
+        color: #1b127b;
+        font-size: 12px;
+        font-weight: 500;
+        font-family: "Heebo";
+      }
+      .orderAmount {
+        color: #1b127b;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: "Heebo";
+      }
+    }
+    .productContainer {
+      height: 50px;
+      width: 100%;
+      margin-top: 10px;
+      border: 2px solid #fff;
+      border-bottom: 2px solid #f4f5f6;
+      cursor: pointer;
+      .imageContainer {
+        height: 35px;
+        width: 35px;
+        border: 1px solid #f4f5f6;
+        border-radius: 5px;
+
+        img {
+          height: 27px;
+          width: 27px;
+          object-fit: contain;
+        }
+      }
+      .name {
+        color: #1b127b;
+        font-size: 14px;
+        font-family: "Heebo";
+        margin-bottom: 0;
+      }
+      .name.payment {
+        font-weight: 500;
+      }
+      .name.date {
+        margin-top: -5px;
+        font-size: 12px;
+      }
+      .price {
+        color: #1b127b;
+        font-size: 12px;
+        font-family: "Heebo";
+        margin-bottom: 0;
+      }
+      .price.amount {
+        font-size: 14px;
+        font-weight: 500;
+      }
+      .price.paid {
+        margin-top: -5px;
+        color: #6801fe;
+        font-family: "Heebo";
+        font-size: 11px;
+      }
+      &:hover {
+        border: 2px solid #f4f5f6;
+        border-radius: 7px;
+      }
+    }
+  }
+
+  .tabContainer1 {
+    padding-left: 58px;
+    .customCard {
+      position: relative;
+      box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.3);
+      background: #fff;
+      border-radius: 9px;
+      height: 170px;
+      margin-bottom: 15px;
+      overflow: hidden;
+
+      .name {
+        color: #1b127b;
+        font-size: 18px;
+        font-family: "Heebo";
+      }
+      .image {
+        height: 62px;
+        width: 62px;
+      }
+      .size {
+        color: #658cc5;
+        font-size: 11px;
+        font-family: "Heebo";
+        margin-bottom: 0;
+      }
+
+      .priceContainer {
+        position: absolute;
+        background: #f4f5f6;
+        height: 50px;
+        bottom: 0;
+        width: 100%;
+        padding: 15px;
+        .total {
+          color: #1b127b;
+          font-size: 13px;
+          font-family: "Heebo";
+        }
+      }
+    }
+    h1.Payfor {
+      color: #1b127b;
+      font-size: 14px;
+      font-family: "Heebo";
+      // margin-top: 15px;
+    }
+  }
+}

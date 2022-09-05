@@ -1,0 +1,56 @@
+.app-sidebar-fixed .app-sidebar--content {
+  height: 100%;
+  /* background-color: #128C7E; */
+}
+.app-sidebar--header {
+  margin-bottom: 0 !important;
+}
+
+.app-sidebar--light .sidebar-navigation ul li > a .sidebar-icon svg {
+  /* color: red !important; */
+}
+
+.app-sidebar--light .sidebar-menu-collapsed li a.active,
+.app-sidebar--light .sidebar-menu-collapsed li a:hover {
+  /* background: #10766E ;
+    color: white ; */
+}
+/* li{
+    pointer-events:none;
+} */
+/* li:before{
+    background: white !important;
+} */
+/* li:hover{
+    background:blue !important;
+} */
+
+.app-sidebar--light .sidebar-menu-collapsed li a.active,
+.app-sidebar--light .sidebar-menu-collapsed li a:hover {
+  background: #10766e !important;
+  /* color: #3c44b1; */
+  width: 100%;
+  border-radius: 0;
+}
+
+sidebar-menu-collapsed li {
+  text-align: center;
+  padding: 0 0 !important;
+}
+.app-sidebar--light .sidebar-menu-collapsed li a.active svg,
+.app-sidebar--light .sidebar-menu-collapsed li a:hover svg {
+  fill: rgba(60, 68, 177, 0.1);
+  stroke: white !important;
+}
+#CollapsedSidebarTooltip123 span svg {
+}
+
+.doWhite svg {
+  fill: #3ca294 !important;
+  stroke: #3ca294 !important;
+}
+
+.doWhite:hover svg,
+.active svg {
+  /* fill: white !important; */
+}

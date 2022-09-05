@@ -1,0 +1,95 @@
+.jodit-toolbar-button_fullsize{
+    display: none !important;
+}
+
+.modal{
+    top: 74px !important; 
+}
+h5 {
+    width: 100% !important;
+}
+.modal-title{
+    width: 100em !important;
+}
+.modal-header{
+    width: 100% !important;
+}
+
+#mainToast{top:80px !important}
+
+th.iconEnabled svg{
+    color: white;
+}
+
+
+th.iconDisabled svg{
+    color: 	#ada4a4;
+}
+
+/* Customised Scroller */
+.custom-scroll::-webkit-scrollbar{
+    width: 12px;
+    height: 80%
+}
+  
+.custom-scroll::-webkit-scrollbar-track{
+    background: #bcbfdf;
+    border-radius: 6px;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb{
+    background: #3C44B1;
+    border-radius: 6px;
+    border-left: 2px solid white;
+    border-right: 2px solid white
+}
+
+.custom-border{
+    border: 1px solid #afb0b8;
+    border-radius: 6px;
+}
+
+#colored-placeholder input::placeholder, #colored-placeholder textarea::placeholder {
+    color: #3b3e66;
+}
+
+.modal-title{
+    width: 100%
+}
+/* Customised Scroller End */
+
+
+/* Accordion: */
+    .my-kard{
+        border-radius: 0px;
+        box-shadow: none;
+    } 
+
+    .my-accordion-header{
+        padding-right: 1.25rem;
+        color: white;
+        background-color: #3347AD;
+        border: 1px solid white;
+        cursor: pointer;
+        border-radius: 5px!important;
+        /* box-shadow: 3px 4px 18px -4px rgba(0,0,0,0.47); */
+    }
+
+    .my-child{
+        padding: 0.75rem 1.25rem;
+        border-radius: 5px;
+        border: 1px solid rgb(223, 214, 214);
+        margin: 3px 0px;
+    }
+    /* .my-accordion-body > .card-body {
+        padding: 0
+    } */
+
+    /* .my-accordion-body{
+        border-radius: 7px!important;
+    } */
+/* Accordion End. */

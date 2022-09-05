@@ -1,0 +1,11 @@
+.text{
+    animation: textblink 1s infinite;
+}
+
+@keyframes textblink{
+    0% {color:'black';}
+    25% {color:'red'; font-weight: 500;}
+    75% {color:'green';}
+    100% {color:'black';}
+
+}

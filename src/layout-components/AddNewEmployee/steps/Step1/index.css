@@ -1,0 +1,17 @@
+.next-button {
+  background-color: #128c7e !important;
+  border-color: #128c7e !important;
+}
+.chk-box:checked {
+  background-color: #128c7e !important;
+}
+.react-datepicker-wrapper {
+  display: block;
+  z-index: 100;
+  width: calc(100% - 57px) !important;
+}
+.input-group-prepend,
+.input-group-append {
+  display: flex;
+  width: 57px;
+}

@@ -1,0 +1,8 @@
+.next-button {
+    background-color: #128C7E !important;
+    border-color: #128C7E !important;
+
+}
+.chk-box:checked {
+    background-color: #128C7E !important;
+}

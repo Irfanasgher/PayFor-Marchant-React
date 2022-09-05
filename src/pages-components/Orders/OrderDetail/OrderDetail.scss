@@ -1,0 +1,29 @@
+.contactDetail {
+  background: #fff;
+  border: 1px solid #d6d7df;
+  .information {
+    h1 {
+      color: #161616;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 0;
+    }
+  }
+  .editContainer {
+    .icon {
+      font-size: 24px;
+      color: #0115d0;
+    }
+  }
+  img.image {
+    height: 91px;
+    width: 89px;
+    object-fit: cover;
+  }
+  p.productSize {
+    color: #000000;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+}
